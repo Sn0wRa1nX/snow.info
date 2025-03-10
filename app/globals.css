@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --violet: #8b5cf6; /* Brighter violet color */
+}
+
+.text-violet {
+  color: var(--violet);
+}
+
+.bg-violet {
+  background-color: var(--violet);
+}
+
+.border-violet {
+  border-color: var(--violet);
+}
+
